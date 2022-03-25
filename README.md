@@ -13,6 +13,7 @@ ensure iyc-input
 
 if you need use my input for another script you should use it like this
 
+```
 local mdialog = exports['iyc-input']:ShowIycInput({
         header = "NewPassword",
         submitText = "Submit",
@@ -25,6 +26,8 @@ local mdialog = exports['iyc-input']:ShowIycInput({
             }
         },
     })
+
+```
 
 small perview:
 
